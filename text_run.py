@@ -8,7 +8,7 @@ def running_text(text, speed):
     print("\n")  # Baris baru setelah selesai satu bagian
 
 # Hitung mundur sebelum mulai
-def countdown(start=1, end=3, delay=1.0):
+def countdown(start=1, end=3, delay=2.0):
     for i in range(start, end + 1):
         print(i)
         time.sleep(delay)
